@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Blogen</title>
+    </head>
+
+    <body>
+      
+    <body id="home">
+   
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+          <div class="container">
+             <a href="index.html" class="navbar-brand">
+             <img  src="img/logo.jpg" width="120" height="60" alt="">
+                   <h3 class="d-inline align-middle"></h3></a>  <!-- MAKE a IMG NEW IMG ---> 
+              <button class="navbar-toggler" data-toggle='collapse' data-target="#navbarNav">
+                  <span class="navbar-toggler-icon">
+                      
+                  </span>
+              </button>
+              <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item px-2">
+                          <a href="index.html" class="nav-link ">Home</a>
+                      </li>
+                      <li class="nav-item px-2">
+                          <a href="#men" class="nav-link ">Men</a>
+                      </li>
+                      <li class="nav-item px-2">
+                          <a href="#woman" class="nav-link">Woman</a>
+                      </li>
+                      <li class="nav-item px-2">
+                          <a href="#kids" class="nav-link">Kids</a>
+                      </li>
+                  </ul>
+              
+              </div>
+          </div>
+      </nav>
+
+    
+       
+      <!-- ACTIONS -->
+      
+  <section id="action" class="py-4 mb-4 bg-dark">
+    <div class="container">
+      <div class="row">
+      </div>
+    </div>
+  </section>
+
+<!-- Login -->
+       
+<section >
+    <div class="container">
+        <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="card">
+                <div class="card-header">
+                    <h4>Account Login</h4>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="first_name">First Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                           <div class="form-group">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                           <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm_password">Confirm Password</label>
+                            <input type="password" class="form-control">
+                        </div>
+                        
+                    </form>
+                    <button class="btn btn-success btn-block px-3 mb-2" data-toggle="modal" data-target="#registerModal"><i class="fa fa-user-plus"></i> Registration</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section> 
+
+                         
+<footer id="main-footer" class="bg-dark text-white mt-5 p-5">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="lead text-center">Copyright &copy;2018</p>
+            </div>
+        </div>
+    </div>
+</footer>        
+     
+                   <!-- REGISTRATIOn -->              
+     <div class="modal fade text-dark" id="registerModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="registerModalTitle">Term of Agreement</h5>
+                        <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Term of Agreement. The term of this Agreement shall commence as of the date hereof and expire on the close of business on , 20 ; provided, however, that (i) commencing on January 1, and each January 1 thereafter, the term of this Agreement will automatically be extended for an additional year unless, not later than September 30 of the immediately preceding year, the Company (provided no Change in Control has occurred and no Threatened Change in Control is pending) or the Executive shall have given notice that it or the Executive, as the case may be, does not wish to have the Term extended; (ii) if, prior to a Change in Control, the Executive ceases for any reason to be an employee of the Company, thereupon without further action the Term shall be deemed to have expired and this Agreement will immediately terminate and be of no further effect.</label>
+                               
+                            </div>
+                           
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                       <a  type="submit" href="login.html" class="btn btn-success mr-auto"><i class="fa fa-check"></i></a>
+                       
+                        <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+                                          
+       
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://cdn.ckeditor.com/4.7.1/standard/ckeditor.js"></script>
+  <script>
+      CKEDITOR.replace( 'editor1' );
+  </script>
+
+    </body>
+</html>

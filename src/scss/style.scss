@@ -4,19 +4,24 @@
    
 }
 #men{
-    background: url("../img/men-section.jpg");
+    
+    background: url("../img/men-section.jpg") no-repeat;
+    background-size: 100%;
     color: #fff;
 }
 #woman{
-    background: url("../img/woman-section.jpg");
+    background: url("../img/woman-section.jpg") no-repeat;
+    background-size: 100%;
    
    
 }
 #kids{
-    background: url("../img/kids-section.jpg");
+    background: url("../img/kids-section.jpg") no-repeat ;
+    background-size: 100%;
 }
 #men:hover{
-    background: url("../img/men-section.jpg") ;
+    background: url("../img/men-section.jpg") no-repeat ;
+    background-size: 100%;
     opacity: 0.9;
     transform: scale(1.05);
     
@@ -25,14 +30,16 @@
     
 }
 #woman:hover{
-    background: url("../img/woman-section.jpg");
+    background: url("../img/woman-section.jpg") no-repeat;
+      background-size: 100%;
      opacity: 0.9;
     transform: scale(1.05);
     
     
 }
 #kids:hover{
-    background: url("../img/kids-section.jpg"); 
+    background: url("../img/kids-section.jpg") no-repeat;
+    background-size: 100%;
      opacity: 0.9;
     transform: scale(1.05);
 }

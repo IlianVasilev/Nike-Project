@@ -8,3 +8,7 @@
 [0507/084908.156:ERROR:main_dll_loader_win.cc(140)] Failed to load Chrome DLL from C:\Program Files (x86)\Doeye\Application\57.0.2987.98\chrome.dll: The specified module could not be found. (0x7E)
 [0507/124635.808:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Access is denied. (0x5)
 [0507/124635.824:ERROR:main_dll_loader_win.cc(140)] Failed to load Chrome DLL from C:\Program Files (x86)\Doeye\Application\57.0.2987.98\chrome.dll: The specified module could not be found. (0x7E)
+[0509/085436.282:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Access is denied. (0x5)
+[0509/085436.297:ERROR:main_dll_loader_win.cc(140)] Failed to load Chrome DLL from C:\Program Files (x86)\Doeye\Application\57.0.2987.98\chrome.dll: The specified module could not be found. (0x7E)
+[0509/090205.013:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Access is denied. (0x5)
+[0509/090205.025:ERROR:main_dll_loader_win.cc(140)] Failed to load Chrome DLL from C:\Program Files (x86)\Doeye\Application\57.0.2987.98\chrome.dll: The specified module could not be found. (0x7E)
